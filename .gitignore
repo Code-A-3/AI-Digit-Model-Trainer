@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# TensorFlow logs / checkpoints
+logs/
+checkpoints/
+
+# Output files
+*.log
+*.out
+
+# Static collection (optional)
+staticcollection/
+
+# Collected static files (optional)
+staticfiles/
+
+# Large generated data
+data/
+*.npz
+*.npy
+
+# Pipenv or Poetry
+Pipfile.lock
+poetry.lock
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# NOTE: DO NOT ignore .keras files — we want to keep trained models
+# *.keras  <-- this line removed!
+# best_model.*  <-- optional: remove if best_model.keras is important
