@@ -6,7 +6,7 @@ This project builds, trains, and evaluates a Convolutional Neural Network (CNN) 
 ### NOTE: 
 This project sets: `os.environ['KERAS_HOME'] = './data'`  
 This ensures that the MNIST dataset is downloaded into `./data/datasets/` instead of the global cache.
-
+```
 .
 ├── data
 │   ├── dataset
@@ -21,7 +21,7 @@ This ensures that the MNIST dataset is downloaded into `./data/datasets/` instea
 ├── venv                    # virtual environment (you should create one)
 ├── README.md
 └── requirements.txt
-
+```
 ## Requirements
 This project was developed using:
 - Python 3.11.9 (TensorFlow 2.19+ does not support Python 3.12 or later)
