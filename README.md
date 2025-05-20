@@ -42,7 +42,7 @@ Unless you change the specifications, this will:
 - Save the best-performing model as best_model.keras
 - Also save the final model as mnist_model_hybrid_20epochs.keras
 
-## Run the Model and Visualize Performance
+### Run the Model and Visualize Performance
 Run "run_model.py"
 This will:
 - Load the trained model
